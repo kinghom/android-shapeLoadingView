@@ -17,7 +17,7 @@ public class DialogDemoActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dialog_demo);
         shapeLoadingDialog = new ShapeLoadingDialog.Builder(this)
-                .loadText("加载中...")
+                //.loadText("加载中...")
                 .build();
 
 
